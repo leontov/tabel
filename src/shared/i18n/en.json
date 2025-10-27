@@ -1,0 +1,129 @@
+{
+  "app": {
+    "title": "Crew time tracker"
+  },
+  "nav": {
+    "home": "Home",
+    "shifts": "Shifts",
+    "reports": "Reports",
+    "staff": "Staff",
+    "rates": "Rates",
+    "settings": "Settings",
+    "onboarding": "Onboarding"
+  },
+  "common": {
+    "add": "Add",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "confirm": "Confirm",
+    "break": "Break",
+    "apply": "Apply",
+    "back": "Back",
+    "next": "Next",
+    "minutes": "min",
+    "offline": "You are offline. Changes are stored locally.",
+    "confirmStop": "Stop the current shift?",
+    "backupCreated": "Backup created",
+    "backupImported": "Backup imported"
+  },
+  "home": {
+    "title": "Live shift timer",
+    "selectPerson": "Select worker",
+    "selectProject": "Select project",
+    "start": "Start",
+    "stop": "Stop",
+    "break5": "+5 min break",
+    "break10": "+10 min break",
+    "break15": "+15 min break",
+    "activeShift": "Active shift for {{name}}",
+    "noActiveShift": "No active shift",
+    "elapsed": "Elapsed",
+    "overtime": "Overtime",
+    "night": "Night minutes",
+    "earnings": "Earnings"
+  },
+  "shifts": {
+    "title": "Shifts log",
+    "searchPlaceholder": "Search by note, project, worker",
+    "filterPerson": "Person",
+    "filterProject": "Project",
+    "filterStart": "From",
+    "filterEnd": "To",
+    "quickToday": "Today",
+    "quickWeek": "This week",
+    "quickMonth": "This month",
+    "quickCustom": "Custom",
+    "massBreakLabel": "Apply break (minutes) to filtered shifts",
+    "columns": {
+      "person": "Person",
+      "project": "Project",
+      "start": "Start",
+      "end": "End",
+      "breaks": "Breaks",
+      "notes": "Notes",
+      "total": "Total",
+      "overtime": "Overtime",
+      "night": "Night",
+      "amount": "Amount"
+    }
+  },
+  "reports": {
+    "title": "Reports",
+    "period": "Period",
+    "byPerson": "By person",
+    "byProject": "By project",
+    "hours": "Hours",
+    "overtime": "Overtime",
+    "night": "Night",
+    "total": "Total amount",
+    "exportCsv": "Export CSV",
+    "exportJson": "Export JSON"
+  },
+  "rates": {
+    "title": "Rates",
+    "empty": "No rates yet",
+    "add": "Add rate",
+    "base": "Base per hour",
+    "overtimeX": "Overtime multiplier",
+    "nightX": "Night multiplier",
+    "weekendX": "Weekend multiplier"
+  },
+  "staff": {
+    "title": "Staff",
+    "add": "Add team member",
+    "active": "Active",
+    "inactive": "Inactive",
+    "defaultRate": "Default rate",
+    "role": "Role / Notes"
+  },
+  "settings": {
+    "title": "Settings",
+    "locale": "Language",
+    "nightStart": "Night start",
+    "nightEnd": "Night end",
+    "overtimeThreshold": "Overtime threshold (minutes)",
+    "backupExport": "Export backup (JSON)",
+    "backupImport": "Import backup (JSON)",
+    "holidays": "Holidays",
+    "addHoliday": "Add holiday",
+    "holidayDate": "Date",
+    "holidayMultiplier": "Multiplier",
+    "onboarding": "Onboarding wizard",
+    "weekendMultiplier": "Weekend multiplier"
+  },
+  "onboarding": {
+    "title": "Onboarding",
+    "intro": "Configure your crew in three quick steps.",
+    "step1": "Choose interface language",
+    "step2": "Set night window and overtime threshold",
+    "step3": "Create base rate and first worker",
+    "finish": "Finish setup"
+  },
+  "holidays": {
+    "empty": "No holidays yet",
+    "label": "Holiday"
+  }
+}
