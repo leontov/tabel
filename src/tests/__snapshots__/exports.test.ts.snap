@@ -1,0 +1,7 @@
+// Vitest Snapshot v1
+
+exports[`CSV export creates localized CSV rows 1`] = `
+Сотрудник;Часы;Сумма
+Анна;8.0;4800.00
+Иван;6.5;3900.00
+`;

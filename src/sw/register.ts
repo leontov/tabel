@@ -1,15 +1,11 @@
-import { Workbox } from 'workbox-window';
-
-export const registerServiceWorker = () => {
+export function registerServiceWorker() {
   if ('serviceWorker' in navigator) {
-    const base = import.meta.env.BASE_URL;
-    const swUrl = `${base}sw.js`;
-    const wb = new Workbox(swUrl, { scope: base });
-    wb.addEventListener('activated', (event) => {
-      if (!event.isUpdate) {
-        console.info('Service worker activated');
-      }
+    window.addEventListener('load', () => {
+      navigator.serviceWorker
+        .register('/sw.js')
+        .catch((error) => {
+          console.error('SW registration failed', error);
+        });
     });
-    wb.register();
   }
-};
+}
