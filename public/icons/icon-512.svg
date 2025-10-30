@@ -1,13 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <defs>
-    <linearGradient id="grad512" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1d4ed8" />
-      <stop offset="100%" stop-color="#0f172a" />
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#0ea5e9" />
     </linearGradient>
   </defs>
-  <rect width="512" height="512" rx="80" fill="url(#grad512)" />
-  <g fill="#f8fafc" font-family="'Inter', 'Segoe UI', sans-serif" font-weight="700" text-anchor="middle">
-    <text x="256" y="244" font-size="200">TB</text>
-    <text x="256" y="360" font-size="96" opacity="0.8">PWA</text>
-  </g>
+  <rect width="512" height="512" rx="96" fill="url(#grad)" />
+  <text x="50%" y="54%" font-size="220" fill="#ffffff" font-family="Inter, sans-serif" font-weight="700" text-anchor="middle">T</text>
 </svg>

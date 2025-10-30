@@ -1,6 +1,8 @@
 node_modules
-.dist
-build
+dist
+.lighthouse
+artifacts
+tests/e2e/artifacts
 .vscode
 .DS_Store
 coverage
