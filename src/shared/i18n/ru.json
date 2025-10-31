@@ -1,0 +1,141 @@
+{
+  "app": {
+    "title": "Табель для бригад"
+  },
+  "nav": {
+    "home": "Главная",
+    "shifts": "Смены",
+    "reports": "Отчёты",
+    "staff": "Сотрудники",
+    "rates": "Ставки",
+    "settings": "Настройки",
+    "onboarding": "Онбординг"
+  },
+  "common": {
+    "add": "Добавить",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "close": "Закрыть",
+    "confirm": "Подтвердить",
+    "break": "Перерыв",
+    "apply": "Применить",
+    "back": "Назад",
+    "next": "Дальше",
+    "minutes": "мин",
+    "offline": "Вы офлайн. Изменения сохраняются локально.",
+    "confirmStop": "Остановить текущую смену?",
+    "backupCreated": "Бэкап создан",
+    "backupImported": "Бэкап импортирован"
+  },
+  "home": {
+    "title": "Текущая смена",
+    "selectPerson": "Выберите сотрудника",
+    "selectProject": "Выберите проект",
+    "start": "Старт",
+    "stop": "Стоп",
+    "break5": "+5 мин перерыв",
+    "break10": "+10 мин перерыв",
+    "break15": "+15 мин перерыв",
+    "activeShift": "Активная смена {{name}}",
+    "noActiveShift": "Нет активной смены",
+    "elapsed": "Отработано",
+    "overtime": "Переработка",
+    "night": "Ночные минуты",
+    "earnings": "Заработок"
+  },
+  "shifts": {
+    "title": "Журнал смен",
+    "searchPlaceholder": "Поиск по заметкам, проекту, сотруднику",
+    "filterPerson": "Сотрудник",
+    "filterProject": "Проект",
+    "filterStart": "С",
+    "filterEnd": "По",
+    "quickToday": "Сегодня",
+    "quickWeek": "Неделя",
+    "quickMonth": "Месяц",
+    "quickCustom": "Произвольно",
+    "massBreakLabel": "Применить перерыв (мин) к отфильтрованным сменам",
+    "columns": {
+      "person": "Сотрудник",
+      "project": "Проект",
+      "start": "Начало",
+      "end": "Окончание",
+      "breaks": "Перерывы",
+      "notes": "Заметки",
+      "total": "Всего",
+      "overtime": "Переработка",
+      "night": "Ночные",
+      "amount": "Сумма"
+    }
+  },
+  "reports": {
+    "title": "Отчёты",
+    "period": "Период",
+    "byPerson": "По сотрудникам",
+    "byProject": "По проектам",
+    "hours": "Часы",
+    "overtime": "Переработка",
+    "night": "Ночные",
+    "total": "Общая сумма",
+    "exportCsv": "Экспорт CSV",
+    "exportJson": "Экспорт JSON"
+  },
+  "rates": {
+    "title": "Ставки",
+    "empty": "Ставки ещё не добавлены",
+    "add": "Добавить ставку",
+    "base": "Базовая ставка за час",
+    "overtimeX": "Множитель переработки",
+    "nightX": "Ночной множитель",
+    "weekendX": "Множитель выходных"
+  },
+  "staff": {
+    "title": "Персонал",
+    "add": "Добавить сотрудника",
+    "active": "Активен",
+    "inactive": "Неактивен",
+    "defaultRate": "Ставка по умолчанию",
+    "role": "Роль / комментарий"
+  },
+  "settings": {
+    "title": "Настройки",
+    "locale": "Язык интерфейса",
+    "nightStart": "Начало ночи",
+    "nightEnd": "Конец ночи",
+    "overtimeThreshold": "Порог переработки (мин)",
+    "backupExport": "Экспорт бэкапа (JSON)",
+    "backupImport": "Импорт бэкапа (JSON)",
+    "holidays": "Праздники",
+    "addHoliday": "Добавить праздник",
+    "holidayDate": "Дата",
+    "holidayMultiplier": "Множитель",
+    "onboarding": "Мастер онбординга",
+    "weekendMultiplier": "Множитель выходных"
+  },
+  "onboarding": {
+    "title": "Онбординг",
+    "intro": "Настройте приложение в три шага.",
+    "step1": "Выберите язык интерфейса",
+    "step2": "Задайте ночное окно и порог переработки",
+    "step3": "Создайте базовую ставку и первого сотрудника",
+    "finish": "Завершить настройку"
+  },
+  "holidays": {
+    "empty": "Праздники не заданы",
+    "label": "Праздник"
+  },
+  "errors": {
+    "person.name.required": "Введите имя сотрудника",
+    "rate.title.required": "Введите название ставки",
+    "rate.base.positive": "Базовая ставка должна быть не меньше нуля",
+    "rate.overtime.positive": "Коэффициент сверхурочных должен быть больше нуля",
+    "rate.night.positive": "Ночной коэффициент должен быть больше нуля",
+    "rate.weekend.positive": "Коэффициент выходного должен быть больше нуля",
+    "settings.time.invalid": "Используйте формат ЧЧ:ММ",
+    "settings.overtimeThreshold.nonnegative": "Порог переработки не может быть отрицательным",
+    "holiday.date.required": "Выберите дату праздника",
+    "holiday.multiplier.positive": "Множитель праздника должен быть больше нуля"
+  }
+}
